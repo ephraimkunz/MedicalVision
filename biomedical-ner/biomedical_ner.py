@@ -228,10 +228,6 @@ def save_tokenizer_info(tokenizer, config):
         print("- Input shape mismatch")
         print("- Model conversion issues")
         print("- Core ML compatibility problems")
-    
-    print(f"\nModel info:")
-    print(f"Model inputs: {list(model.input_description.keys())}")
-    print(f"Model outputs: {list(model.output_description.keys())}")    
 
 def softmax(x):
     """Apply softmax to get probabilities"""
